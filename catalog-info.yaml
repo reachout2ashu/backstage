@@ -2,10 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
     github.com/project-slug: reachout2ashu/backstage
+    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
+    lighthouse.com/website-url: https://backstage.io
   namespace: default
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: experimental
   owner: Group:default/backstage
